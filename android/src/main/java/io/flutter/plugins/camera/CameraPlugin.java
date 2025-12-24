@@ -21,8 +21,7 @@ import io.flutter.view.TextureRegistry;
  * <p>Instantiate this in an add to app scenario to gracefully handle activity and context changes.
  * See {@code io.flutter.plugins.camera.MainActivity} for an example.
  *
- * <p>Call {@link #registerWith(io.flutter.plugin.common.PluginRegistry.Registrar)} to register an
- * implementation of this that uses the stable {@code io.flutter.plugin.common} package.
+ * <p>This plugin uses Flutter v2 embedding and is automatically registered.
  */
 public final class CameraPlugin implements FlutterPlugin, ActivityAware {
 
